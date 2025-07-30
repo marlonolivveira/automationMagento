@@ -2,4 +2,4 @@ cypress/results/*
 cypress/reports/*
 cypress/screenshots/*
 cypress/videos/*
-cypress/node_modules/*
+node_modules/
