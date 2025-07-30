@@ -37,7 +37,7 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento:
 2. **Acesse a pasta do projeto:**
 
    ```bash
-   cd automationMagento
+   Abra o cmd na pasta onde o projeto foi clonado
    ```
 
 3. **Instale as dependências:**
