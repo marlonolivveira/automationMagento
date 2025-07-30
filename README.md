@@ -46,7 +46,11 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento:
    npm install
    ```
 
-4. **Execute todos os testes:**
+## 🏃‍♀️ Executando os Testes
+
+O Cypress permite executar os testes de duas formas principais:
+
+### Modo Headless (Completo). Ideal para execução em esteiras de CI/CD ou para rodar toda a suíte de testes de uma vez. Executa os testes em segundo plano, sem interface gráfica.
 
    ```bash
    npx cypress run
@@ -54,11 +58,10 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento:
 
 ## 🧪 Executando no modo interativo (opcional)
 
-Caso queira rodar os testes com a interface gráfica do Cypress:
+   ```bash
+   npx cypress open
+   ```
 
-```bash
-npx cypress open
-```
 ## ✍️ Autor
 
 [Marlon Oliveira](https://github.com/marlonolivveira)
