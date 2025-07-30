@@ -95,7 +95,7 @@ describe('Cadastro de usuarios', () => {
     }),
 
     
-    it.only('Deve preencher os dados e realizar o cadastro.', () => {
+    it('Deve preencher os dados e realizar o cadastro.', () => {
 
         // Preenche os dados do cadastro com dados ficticios
         cy.get('#firstname').type(firstName)

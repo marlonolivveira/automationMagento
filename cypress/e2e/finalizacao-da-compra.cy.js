@@ -38,7 +38,7 @@ describe('Finalização de Compra (Checkout)', () => {
         cy.get('#product-addtocart-button').click()
 
         // Verificando se a mensagem de sucesso está aparecendo
-        cy.verifyMessageSucess(null, 'You added Radiant Tee to your shopping cart.')
+        cy.verifyMessageSucess('You added Radiant Tee to your shopping cart.')
 
         // Aguarda 1sec antes de clicar no carrinho
         cy.wait(1000)

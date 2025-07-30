@@ -30,7 +30,7 @@ describe('Carrinho de compras', () => {
         cy.get('#product-addtocart-button').click()
 
         // Verificando se a mensagem de sucesso está aparecendo
-        cy.verifyMessageSucess(null, 'You added Radiant Tee to your shopping cart.')
+        cy.verifyMessageSucess('You added Radiant Tee to your shopping cart.')
 
         // Verifica se o contador do carrinho atualizou para 1
         cy.get('.counter-number')

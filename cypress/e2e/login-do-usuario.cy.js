@@ -11,12 +11,12 @@ describe('Pagina de login', () => {
     })
 
 
-    it.only('Deve preencher os campos de login corretamente e logar no sistema.', () => {
+    it('Deve preencher os campos de login corretamente e logar no sistema.', () => {
         // Logando no sistema 
         cy.login(email, password);
 
         // Verificando se realmente estou na Home Page
-        cy.title().should('include', 'Home Page');
+        cy.title().should('include', 'My Account');
     }),
 
 
